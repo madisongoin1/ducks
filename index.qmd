@@ -4,3 +4,6 @@ title: "Mallard Duck Movement"
 
 # Mallard Duck Movement
 
+Mallard ducks are constantly moving throughout the year, and GPS tracking helps us understand where they travel and how their movement changes over time. This website explores the movements of tracked mallards around **Lake Constance**, a large lake located in Central Europe, bordered by Germany, Switzerland, and Austria. Using GPS tracking records, the data show where the ducks were located and provide information about their movement, including speed and the timing of observations.
+
+The data come from the mallard tracking dataset provided by the PPBDS tutorials repository. The **Map** page explores the geographic locations recorded by the GPS trackers, while the **Seasons** page examines monthly tracking activity, seasonal patterns, and movement speeds. Together, these pages provide a closer look at how mallards use the Lake Constance region and how their movement varies throughout the year.
