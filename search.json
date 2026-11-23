@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallard Duck Movement\nMallard ducks are constantly moving throughout the year, and GPS tracking helps us understand where they travel and how their movement changes over time. This website explores the movements of tracked mallards around Lake Constance, a large lake located in Central Europe, bordered by Germany, Switzerland, and Austria. Using GPS tracking records, the data show where the ducks were located and provide information about their movement, including speed and the timing of observations.\nThe data come from the mallard tracking dataset provided by the PPBDS tutorials repository. The Map page explores the geographic locations recorded by the GPS trackers, while the Seasons page examines monthly tracking activity, seasonal patterns, and movement speeds. Together, these pages provide a closer look at how mallards use the Lake Constance region and how their movement varies throughout the year."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Rows: 83279 Columns: 7\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): duck_id, taxon\ndbl  (4): lat, long, speed, heading\ndttm (1): timestamp\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 10 × 7\n   timestamp             lat  long speed heading duck_id      taxon             \n   &lt;dttm&gt;              &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;             \n 1 2007-11-23 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 2 2007-11-24 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 3 2007-11-26 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 4 2007-11-26 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 5 2007-11-27 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 6 2007-11-27 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 7 2007-11-23 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 8 2007-11-24 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 9 2007-11-24 17:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n10 2007-11-25 05:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n\n\n\n\n# A tibble: 52 × 2\n   duck_id                        n\n   &lt;chr&gt;                      &lt;int&gt;\n 1 2351 - Radolfzell JC 72052 20169\n 2 1806 - Radolfzell JC70792  10139\n 3 2318 - Radolfzell JC 72053  9522\n 4 2312 - Radolfzell JC 72051  7163\n 5 2497 - Radolfzell JC74415   4835\n 6 2339 - Radolfzell JC 72018  4645\n 7 2495 - Radolfzell JC74406   3030\n 8 2501 - Radolfzell JC74418   2861\n 9 2502 - Radolfzell JC74417   2715\n10 2489 - Radolfzell JC74412   2514\n# ℹ 42 more rows\n\n\n\n\n# A tibble: 1 × 4\n  min_latitude max_latitude min_longitude max_longitude\n         &lt;dbl&gt;        &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;\n1         47.3         53.9          7.83          23.6\n\n\n\n\nRows: 83279 Columns: 7\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): duck_id, taxon\ndbl  (4): lat, long, speed, heading\ndttm (1): timestamp\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "# A tibble: 12 × 3\n   month     month_num     n\n   &lt;ord&gt;         &lt;dbl&gt; &lt;int&gt;\n 1 January           1  3264\n 2 February          2  4899\n 3 March             3  7330\n 4 April             4  6031\n 5 May               5  3110\n 6 June              6  2503\n 7 July              7  5335\n 8 August            8  9482\n 9 September         9 20689\n10 October          10  9762\n11 November         11  4746\n12 December         12  3794\n\n\n\n\n# A tibble: 1 × 5\n  mean_speed median_speed min_speed max_speed sd_speed\n       &lt;dbl&gt;        &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;\n1      0.400         0.22         0      26.6    0.963\n\n\n\n\nPicking joint bandwidth of 0.0381"
+  }
+]
