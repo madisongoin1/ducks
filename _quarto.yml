@@ -3,5 +3,19 @@ project:
 
 website:
   title: "Mallard Duck Movement"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: map.qmd
+        text: Map
 
-  
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+
+execute:
+  echo: false
